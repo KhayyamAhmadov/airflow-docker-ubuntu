@@ -1,6 +1,6 @@
-# airflow-docker-ubuntu
+# airflow-docker-ubuntu-vm
 
-**Bu proses Airflow-un rəsmi istehsalat (production) imicinə əsaslanır və verilənlər bazası (PostgreSQL) ilə mesaj brokerini (Redis) də avtomatik quraşdırır.**
+**Bu proses Airflow-un rəsmi (production) imicinə əsaslanır və verilənlər bazası (PostgreSQL) ilə mesaj brokerini (Redis) də avtomatik quraşdırır.**
 
 Aşağıdakı addımları izləyərək bu sistemi qura bilərsiniz.
 
@@ -22,17 +22,12 @@ Qeyd: .env faylı sadəcə istifadəçi ID-sini təyin etmək üçündür, büt�
 
 Bu fayl aşağıdakı servisləri ehtiva edir:
 
-Postgres: Airflow-un metadata bazası.
-
-Redis: Tapşırıqların növbəyə düzülməsi üçün.
-
-Airflow Webserver: İnterfeys (UI).
-
-Airflow Scheduler: Tapşırıqları planlayan.
-
-Airflow Worker: Tapşırıqları icra edən.
-
-Airflow Init: Bazanı ilkin olaraq yaradan və "airflow" istifadəçisini əlavə edən köməkçi servis.
+- Postgres: Airflow-un metadata bazası.
+- Redis: Tapşırıqların növbəyə düzülməsi üçün.
+- Airflow Webserver: İnterfeys (UI).
+- Airflow Scheduler: Tapşırıqları planlayan.
+- Airflow Worker: Tapşırıqları icra edən.
+- Airflow Init: Bazanı ilkin olaraq yaradan və "airflow" istifadəçisini əlavə edən köməkçi servis.
 
 ---
 
