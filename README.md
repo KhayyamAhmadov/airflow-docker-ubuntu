@@ -19,7 +19,7 @@ echo -e "AIRFLOW_UID=$(id -u)" > .env
 ---
 
 2. **docker-compose.yml Faylı**
-İndi həmin qovluqda docker-compose.yml adlı fayl yaradın və aşağıdakı kodu olduğu kimi daxil edin.
+İndi həmin qovluqda docker-compose.yml adlı fayl yaradın və repodakı kodu olduğu kimi daxil edin.
 
 Bu fayl aşağıdakı servisləri ehtiva edir:
 
