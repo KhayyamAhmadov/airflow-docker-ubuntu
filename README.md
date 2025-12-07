@@ -12,8 +12,9 @@ Airflow-un işləməsi üçün bəzi qovluqların əvvəlcədən mövcud olması
 ```bash
 mkdir -p ./dags ./logs ./plugins ./config
 echo -e "AIRFLOW_UID=$(id -u)" > .env
-Qeyd: .env faylı sadəcə istifadəçi ID-sini təyin etmək üçündür, bütün konfiqurasiya docker-compose.yml daxilində olacaq.
 ```
+**Qeyd: .env faylı sadəcə istifadəçi ID-sini təyin etmək üçündür, bütün konfiqurasiya docker-compose.yml daxilində olacaq.**
+
 
 ---
 
